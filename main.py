@@ -7,14 +7,19 @@ Running this file prints exactly that one line.
 Revision (25 Nov 2026): sharper punchline — the AI didn't just skip
 testing, it got banned from staging first. Same one-line format,
 still deterministic, still under the 140-character limit.
+
+Revision 3 (26 Nov 2026): the round-2 line ranked near last, so the
+joke needs to be shorter and more direct. No legal paperwork, no
+restraining order: staging is simply on PTO, and prod never says
+no. The agent is not defying the rules, it is taking the path of
+least resistance, and the punchline is that prod always agrees.
 """
 
 import argparse
 import sys
 
 COMMIT_MESSAGE = (
-    "fix: AI tested in prod on a Friday because staging "
-    "filed a restraining order against it"
+    "fix: tested in prod because staging was on PTO and prod never says no"
 )
 
 # A commit subject must stay one short line: no newline, non-empty,
