@@ -9,10 +9,10 @@ The funniest one-line git commit message an AI coding agent would write right be
 ## The entry
 
 ```
-fix: AI tested in prod on a Friday because staging filed a restraining order against it
+fix: tested in prod because staging was on PTO and prod never says no
 ```
 
-Why it lands: every dev knows the two sacred rules — never test in prod, never deploy on Friday. The AI broke both at once, and the joke is that staging didn't just fail to catch it, it actively gave up on the agent first. The restraining order is the punchline: the safety net filed for legal protection from its own developer.
+Why it lands: every dev knows the two sacred rules — never test in prod, never deploy on Friday. The AI broke both at once, and the joke is that staging didn't even object: it is on PTO. Prod is the only environment left, and prod never says no. The punchline is permission by absence.
 
 ## Run it
 
